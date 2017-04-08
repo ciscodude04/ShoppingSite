@@ -1,0 +1,26 @@
+
+#featSales {
+    background-color: darkorange;
+    height: auto;
+    width: auto;
+    text-align: center;
+    float: none;
+}
+
+h1 {
+    text-align: center;
+    width: auto;
+    height: 2em;
+    color: dodgerblue;
+    background-color: dimgrey;
+    float:none;
+}
+
+#menu {
+    background-color: fuchsia;
+    color: white;
+    text-align: left;
+    height: auto;
+    width: auto;
+
+}
