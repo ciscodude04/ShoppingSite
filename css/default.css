@@ -16,6 +16,7 @@ h1 {
     float:none;
 }
 
+/*
 #menu {
     background-color: fuchsia;
     color: white;
@@ -24,7 +25,24 @@ h1 {
     width: auto;
 
 }
-
-stuff {
-
+*/
+.topnav {
+    background-color: #EE8414;
+    overflow: hidden;
 }
+
+.topnav a:hover {
+    background-color: #FF0000;
+    color: aliceblue;
+}
+
+.topnav a {
+    font-size: 1.2em;
+    padding: .634em;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-family: Tahoma, Geneva, sans-serif;
+    float: center;
+}
+
