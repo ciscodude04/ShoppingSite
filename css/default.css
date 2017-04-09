@@ -16,16 +16,6 @@ h1 {
     float:none;
 }
 
-/*
-#menu {
-    background-color: fuchsia;
-    color: white;
-    text-align: left;
-    height: auto;
-    width: auto;
-
-}
-*/
 .topnav {
     background-color: #EE8414;
     overflow: hidden;
@@ -38,11 +28,11 @@ h1 {
 
 .topnav a {
     font-size: 1.2em;
-    padding: .634em;
+    padding: .5em 6.97em;
     display: block;
     text-align: center;
     text-decoration: none;
     font-family: Tahoma, Geneva, sans-serif;
-    float: center;
+    float: left;
 }
 
