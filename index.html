@@ -2,6 +2,7 @@
 <html>
 
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title id="title">Home Page</title>
     <link rel="stylesheet" type="text/css" href="css/default.css">
 </head>
@@ -31,11 +32,43 @@
     <div>
         <h1>Features Sales</h1>
         <div>
-            <p id="activeDisplay" a></p>
+            <p id="activeDisplay"></p>
         </div>
     </div>
-
     <div id="featSales">
+     <div class="slideshow-container">
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 3</div>
+    <img src="../images/alarm-clock-2175382_1920.jpg" style="width:100%">
+    <div class="text">50% off!</div>
+  </div>
+
+
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 3</div>
+    <img src="../images/beach-2179183_1920.jpg" style="width:100%">
+    <div class="text">Up to 15% off</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 3</div>
+    <img src="../images/shire-horse-2197214_1920.jpg" style="width:100%">
+    <div class="text">-$300 off</div>
+  </div>
+
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+</div>
+
+
+
         <!--        TODO: Insert JS that goes through the sale.-->
         <ul>
             <li class="items">
@@ -51,8 +84,11 @@
         </ul>
     </div>
     <div>
-    <p> Need to add something else to the home page. </p>
+        <p> Need to add something else to the home page. </p>
     </div>
+
+    <script src="js/core.js">
+    </script>
 </body>
 
 </html>
