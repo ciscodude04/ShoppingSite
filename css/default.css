@@ -16,6 +16,26 @@ h1 {
     float: none;
 }
 
+.trcss {
+    text-align: center;
+    font-family: inherit;
+    font-size: 1.3em;
+    color: #222;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+#thstyle {
+    font: 400 32px 'Open Sans Condensed','Helvetica Narrow',arial,helvetica,sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    vertical-align: baseline;
+}
+
+#itemlink a{
+    text-decoration: none;
+}
+
 * {
 /*    box-sizing: border-box;*/
 }
