@@ -155,6 +155,19 @@ h1 {
 .topnav {
     background-color: #EE8414;
     overflow: hidden;
+    display: inline;
+}
+
+.topnav ol {
+    list-style-type: none;
+}
+
+.topnav li {
+    float:left;
+}
+
+.topnav li a{
+   
 }
 
 .topnav a:hover {
